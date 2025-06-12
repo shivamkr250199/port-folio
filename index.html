@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam Kumar | ML Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2e86de;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: #1e3799;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .project {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .project h3 {
+      color: #2e86de;
+    }
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .skills li {
+      background: #dff9fb;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+    footer {
+      background: #2e86de;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media(max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shivam Kumar</h1>
+    <p>Final Year B.Tech Student | Machine Learning Enthusiast | Python Programmer</p>
+  </header>
+
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Fake News Prediction</h3>
+      <p>Built a logistic regression model using TF-IDF to detect fake news from text data. Evaluated with accuracy and confusion matrix.</p>
+      <p><strong>Tech:</strong> Python, scikit-learn, Flask</p>
+      <p><a href="https://github.com/shivamkr250199/fake-news-detection" target="_blank">GitHub Repo</a> | <a href="https://fake-news-detection-12.onrender.com" target="_blank">Live Demo</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Customer Churn Prediction</h3>
+      <p>Developed and tuned a Random Forest classifier using SMOTE and GridSearchCV. Deployed with Flask and hosted on Render.</p>
+      <p><strong>Tech:</strong> Python, Pandas, RandomForest, SMOTE</p>
+      <p><a href="https://github.com/shivamkr250199/customer-churn"target="_blank">GitHub Repo</a> | <a href="https://customer-churn-7.onrender.com" target="_blank">Live Demo</a></p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Machine Learning</li>
+      <li>scikit-learn</li>
+      <li>Flask</li>
+      <li>Git & GitHub</li>
+      <li>Render</li>
+      <li>Pandas</li>
+      <li>NumPy</li>
+      <li>HTML5 & CSS</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Click below to download:</p>
+    <a href="Shivam_Kumar_Resume(3).docx" download>📄 Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.shivamshandaliya1998@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/shivamkr250199" target="_blank">@shivamkr250199</a></p>
+    <p>LinkedIn: <a href="" target="_blank">linkedin.com/in/your-linkedin</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shivam Kumar | Machine Learning Portfolio</p>
+  </footer>
+
+</body>
+</html>
